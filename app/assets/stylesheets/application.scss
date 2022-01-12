@@ -11,3 +11,12 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.flat-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flat.selected {
+  border: 6px red dashed;
+}
